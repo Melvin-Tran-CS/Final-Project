@@ -23,7 +23,7 @@ PImage currentImage;
 PImage dingus;
 
 PImage Retard;
-
+int indexNum = 0 ;
 int totalPictures = 20;
 int indexPicture = 0;
 
@@ -188,7 +188,7 @@ void mousePressed () {
     exit();
   }
   if (mouseX > 600 && mouseX < 1100 && mouseY > 650 && mouseY < 750) {
-    image(picture[0]);
+    
     //exit();
     //if(indexPicture < 0 | indexPicture >=Pictures.length){
     //if (indexPicture < 0) {
